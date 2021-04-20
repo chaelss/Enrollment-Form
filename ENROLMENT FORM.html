@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ENROLMENT FORM</title>
+<style>
+
+body{
+background-color:white;
+
+
+
+}
+
+.ef {
+position:absolute;
+top:1vh;
+left:2%;
+height:auto;
+width:94%;
+padding-left:2%;
+background-color:white;
+border-radius:10px;
+box-shadow:grey 0px 0px 30px;
+
+}
+
+.ef h1{
+color:black;
+font-family:Arial;
+font-size:50px;
+
+
+}
+
+h5{
+color:black;
+font-family:Arial;
+font-size:12px;
+
+
+}
+.ef h5{
+color:black;
+font-family:Arial;
+font-size:16px;
+
+
+}
+
+form{
+position:absolute;
+left:2%;
+top:25vh;
+padding:2%;
+height:auto;
+width:92%;
+box-shadow:grey 0px 0px 30px;
+background-color:white;
+border-radius:10px;
+
+
+}
+
+.st label{
+font-family:Arial;
+font-size:18px;
+
+}
+
+hr{
+position:relative;
+width:auto;
+}
+
+
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email],
+input[type=datetime-local]{
+	width:22%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display:inline-block;
+	border: none;
+	background: #f1f1f1;
+    border-radius:5px;
+    color:grey;
+	
+}
+
+input[type=submit]{
+background-image:linear-gradient(0deg,black,blue,blue);
+width:48.4%;
+font-size:30px;
+border-radius:10px;
+color:white;
+font-family:Open Sans Extrabold;
+border:none;
+padding:10px;
+margin:10px;
+box-shadow:black 0px 10px 30px;
+
+
+}
+
+input[type=submit]:hover{
+background:blue;
+width:48.4%;
+font-size:30px;
+border-radius:10px;
+color:white;
+font-family:Open Sans Extrabold;
+border:none;
+padding:10px;
+margin:10px;
+
+
+
+}
+
+
+input[type=reset]{
+background-image:linear-gradient(0deg,black,red,red);
+width:48.4%;
+font-size:30px;
+border-radius:10px;
+color:white;
+font-family:Open Sans Extrabold;
+border:none;
+padding:10px;
+margin:10px;
+
+
+}
+
+input[type=reset]:hover{
+background:red;
+width:48.4%;
+font-size:30px;
+border-radius:10px;
+color:white;
+font-family:Open Sans Extrabold;
+border:none;
+padding:10px;
+margin:10px;
+
+
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=date]:hover,
+input[type=email]:hover,
+input[type=datetime-local]:hover{
+	width:22%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display:inline-block;
+	border: none;
+	background: skyblue;
+    border-radius:5px;
+    color:Black;
+	
+}
+
+input[type=number]{
+	width:12.6%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display:inline-block;
+	border: none;
+	background: #f1f1f1;
+    border-radius:5px;
+    color:grey;
+	
+}
+
+input[type=number]:hover{
+	width:12.6%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display:inline-block;
+	border: none;
+	background: skyblue;
+    border-radius:5px;
+    color:grey;
+	
+}
+
+input[type=radio]{
+    color:black;
+    font-family:Arial;
+    font-size:20px;
+    margin-left:5%;
+
+}
+.bi{
+	width:14.75%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display:inline-block;
+	border: none;
+	background: #f1f1f1;
+    border-radius:5px;
+    color:grey;
+	
+}
+
+.bi:hover{
+	width:14.75%;
+	padding:15px;
+	margin: 5px 0 22px 0;
+	display:inline-block;
+	border: none;
+	background: skyblue;
+    border-radius:5px;
+    color:grey;
+	
+}
+
+
+</style>
+</head>
+<body>
+<div class="ef">
+<h1>ONLINE ENROLLMENT FORM<h1>
+<h5>Fill up this form with integrity to enrol. Information gathered from this form will be used only for the purpose of Enrolment and other School processes it may serve its best.  </h5>
+
+
+</div>
+
+
+
+
+</div>
+
+<form>
+<div class="st">
+
+ <label for="Personal Information" ><b>Personal Information</b></label><hr>
+<label for="Name">Complete Name</label><br>
+			<input type="text" placeholder="Family Name" name="name" required>
+            <input type="text" placeholder="First Name" name="name" required>
+            <input type="text" placeholder="Middle Name" name="name" required>
+            <input type="text" placeholder="SUFFIX" name="name" required>
+
+<label for="Gender">Gender</label>
+
+<select name="Gender" class="bi" required>
+  <option value="Choose one">Choose one</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Others">Others</option>
+</select>
+
+<label for="Religion">Religion</label>
+
+<select name="Religion" class="bi">
+  <option value="Choose one">Choose one</option>
+  <option value="Roman Catholic">Roman Catholic</option>
+  <option value="Islam">Islam</option>
+  <option value="Others">Others</option>
+</select>
+
+<label for="Age">Age</label>
+    <input type="number" placeholder="Choose one" name="name" required>
+
+<label for="Status">Status</label>
+
+<select name="Status" class="bi">
+  <option value="Choose one">Choose one</option>
+  <option value="Single">Single</option>
+  <option value="Married">Married</option>
+  <option value="Others">Others</option>
+</select>
+
+<label for="Nationality">Nationality</label>
+
+<select name="Status" class="bi">
+  <option value="Choose one">Choose one</option>
+  <option value="Filipino">Filipino</option>
+  <option value="Others">Others</option>
+</select>
+
+<label for="Birthday" class="bd">Birthday</label>
+			<input type="date" placeholder="MM/DD/YYYY" name="Birthday" required>
+            
+<label for="Birthplace">Birthplace</label>
+			<input type="text" placeholder="Birthplace" name="Birthplace" required><br>
+
+
+<label for="Address" >Current Address</label><br>
+			<input type="text" placeholder="Region" name="name" required>
+            <input type="text" placeholder="Province" name="name" required>
+            <input type="text" placeholder="City/Municipality" name="name" required>
+            <input type="text" placeholder="Barangay" name="name" required>
+
+<label for="Contact" >Contact Information</label><br>
+			<input type="email" placeholder="Type your Email" name="email" required>
+            <input type="text" placeholder="Type Phone Number" name="phonenumber" required><hr>
+            
+<label for="Educational Background" ><b>Educational Information</b></label><hr>
+<label for="Name">School Last Attended</label><br>
+			<input type="text" placeholder="Name of School" name="name" required>
+            <input type="text" placeholder="Type of School (Private, Public, Semi-Private)" name="name" required>
+            <input type="text" placeholder="School Address" name="name" required>
+            <input type="text" placeholder="School ID" name="name" required>
+            
+            
+<label for="Name">Grade Level Last Attended</label><br>
+			<input type="number" placeholder="Year Level" name="name" required>
+            <input type="text" placeholder="Strand(For Senior High School)" name="name" required>
+            <input type="text" placeholder="Section" name="name" required>
+            <input type="text" placeholder="Adviser" name="name" required><br>
+
+<label for="Name">Awards and Recognitions Received</label><br>
+			<input type="text" placeholder="Event Name" name="name" required>
+            <input type="date" placeholder="Date held" name="date" required><br>
+            
+            <input type="text" placeholder="Event Name" name="name" required>
+            <input type="date" placeholder="Date held" name="date" required><br>
+            
+            <input type="text" placeholder="Event Name" name="name" required>
+            <input type="date" placeholder="Date held" name="date" required><br>
+            
+            <hr>
+            
+<label for="Name">Grade Level to Enroll</label><br>
+            <input type="number" placeholder="Year Level" name="number" required>
+            <input type="text" placeholder="Strand(For Senior High School)" name="name" required>
+            <input type="text" placeholder="Section" name="name" required>
+            <input type="text" placeholder="Adviser" name="name" required><br>
+            
+
+<label for="Name">Documents Submitted</label><br>
+            <input type="radio" value="Report Card (Copy)"><font style="font-family:Arial; font-size:16px;">Report Card (Copy)<br>
+            <input type="radio" value="Good Moral Certificate">Good Moral Certificate<br>
+            <input type="radio" value="Others">Others</font><input type="text" placeholder="Please Specify" name="name" ><br>
+            
+
+
+<hr>
+<label for="Security Check" ><b>Security Check</b></label> 
+<h5>For additional security of your documents, Kindly re-enter your email and create a strong Password.<hr>
+    <label for="Security Information" >Security Information</label><br>
+    <label for="Security Information" >E-mail</label><input type="email" placeholder="Your Primary Email" name="email" required>
+    <label for="Security Information" >Confirm E-mail</label><input type="email" placeholder="Confirm Primary Email" name="email" required>
+    <label for="Security Information" >Recovery E-mail</label><input type="email" placeholder="Enter Recovery Email" name="email" required><br>
+    <label for="Security Information" >Password</label><input type="password" placeholder="Create Password" name="password" required>
+    <label for="Security Information" >Password</label><input type="password" placeholder="Confirm Password" name="password" required><hr>
+
+<h5><b>Note:</b>Before clicking the submit button, Review all the Information and make sure there are no mistake(i.e. spellings). Provide also the date and time the form was submitted.<important></h5>
+
+<label for="Name">Date and Time Submitted</label><input type="datetime-local" placeholder="Year Level" name="name" required><br>
+<input type="checkbox">By clicking the submit button, I authorize the administrator to process the data I have provided for the purpose of enrolment and for other purpose it may serve.<br>
+<input type="checkbox">I hereby swear that the information given above are true and factual and contains nothing but the truth. I also recognize that any falsification with the above information may result to appropriate consequences.<br>
+<input type="checkbox">I hereby swear that the documents provided above are certified true copy of the original documents.<br><hr>
+
+<input type="submit" value="Enroll Now">
+<input type="reset" value="Clear Form">
+
+<hr>
+
+
+<h6>This form is created and powered by BlackWeb·
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+<html>
